@@ -7,13 +7,19 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
     "@testing-library/user-event": "^13.2.1",
+    "bootstrap": "^5.3.3",
+    "concurrently": "^9.1.2",
     "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.85.1",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"yarn start:styles\" \"yarn start:react\"",
+    "start:react": "react-scripts start",
+    "start:styles": "sass src/styles/:src/built-styles --no-source-map --watch",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
