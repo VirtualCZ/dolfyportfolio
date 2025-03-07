@@ -134,6 +134,12 @@ nav {
     width: unset !important;
   }
 }
+
+@media (max-width: 500px) {
+  :root{
+    font-size: 10px;
+  }
+}
 .hero {
   height: calc(
     100dvh - 4.8rem - 2rem
