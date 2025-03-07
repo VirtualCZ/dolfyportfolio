@@ -1,14 +1,13 @@
 import { Col, Container, Row, Stack } from "react-bootstrap";
 import "./built-styles/main.css";
+import Navbar from "./sections/Navbar";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div className="hero-section">
-          <nav>
-            <span className="nav-text">dolfy</span>
-          </nav>
+          <Navbar text={"dolfy"}/>
           <img src="/temp-photos/hero_bg.jpg" className="hero-bg"></img>
           <Container className="hero">
             <Row>
