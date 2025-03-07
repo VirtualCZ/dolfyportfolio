@@ -13,7 +13,7 @@ function App() {
           <Container className="hero">
             <Row>
               <Col className="hero-left-col d-lg-block" lg={5} xl={5}>
-                <img className="hero-top-img" src="/temp-photos/IMG_1695.JPG" />
+                <img className="hero-top-img" src="/temp-photos/IMG_1695.jpg" />
               </Col>
               <Col
                 className="hero-center-col d-none d-lg-none d-xxl-block"
