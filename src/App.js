@@ -38,12 +38,12 @@ function App() {
           <h1>About Me</h1>
           <Row>
             <Col className="about-me-left" lg={12} xl={7}>
-              <Stack gap={3}>
+              <Stack>
                 <div>
                   <h2>About Me</h2>
                   <p>
                     24yr, Bipolar, Slightly Autistic I like History of Wehrmacht
-                    & Luftwaffe(NO i don’t support the NSDAP - Nazi Party) So
+                    & Luftwaffe (NO i don’t support the NSDAP - Nazi Party) So
                     you might see me running around in an Uniform from time to
                     time.
                     <br />
@@ -95,13 +95,14 @@ function App() {
                 </div>
               </Stack>
             </Col>
-            <Col className="gallery-preview" lg={12} xl={5}>
+            <Col className="about-me-right" lg={12} xl={5}>
+            <div className="gallery-preview">
               <div className="gallery-preview-bg"></div>
-              <Row className="gallery-button-container">
-                <Col lg={12}>
+              <div className="gallery-button-container">
+                <div>
                   <button>open gallery</button>
-                </Col>
-              </Row>
+                </div>
+              </div>
               <Stack gap={3}>
                 <Stack direction="horizontal" gap={3}>
                   <img src="/temp-photos/IMG_0153.jpg" />
@@ -119,6 +120,7 @@ function App() {
                   <img src="/temp-photos/IMG_0153.jpg" />
                 </Stack>
               </Stack>
+              </div>
             </Col>
           </Row>
         </Container>

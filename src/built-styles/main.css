@@ -5,6 +5,7 @@
   --bs-link-color-rgb: 255, 255, 255 !important;
   --bs-link-hover-color-rgb: 196, 61, 137 !important;
   --bs-gutter-x: 1rem !important;
+  font-size: 12px;
 }
 
 .pink-color {
@@ -12,43 +13,47 @@
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-family: bc-novatica-cyr, sans-serif;
   margin-bottom: 0 !important;
+  line-height: 2.4rem;
 }
 
 h1 {
-  font-size: 2rem !important;
-  line-height: 2, 375rem;
+  font-size: 3rem !important;
+  line-height: 3.6rem;
   font-family: bc-novatica-cyr, sans-serif;
   margin-bottom: 0 !important;
 }
 
 h2 {
-  font-size: 4rem !important;
+  font-size: 5rem !important;
   font-weight: 400 !important;
-  line-height: 4, 8125rem;
+  line-height: 6rem;
   font-family: bc-novatica-cyr, sans-serif;
   margin-bottom: 0 !important;
 }
 
 a {
-  font-size: 1.25rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
   font-family: bc-novatica-cyr, sans-serif;
   color: #000;
 }
 
 .small-text {
-  font-size: 0.625rem;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
 }
 
 button {
   background-color: #131314;
-  font-size: 1.5rem !important;
+  font-size: 2rem !important;
   color: #fff;
   text-transform: uppercase !important;
   border: none;
-  padding: 0.5625rem 1rem;
+  padding: 0.5rem 1rem;
+  line-height: 2.4rem !important;
 }
 
 .header-text {
@@ -68,10 +73,10 @@ nav {
 }
 nav .nav-text {
   color: #c44188;
-  font-size: 3rem;
+  font-size: 4rem;
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 3.625rem;
+  line-height: 4.8rem;
 }
 
 .container,
@@ -80,18 +85,18 @@ nav .nav-text {
 .container-sm,
 .container-xl,
 .container-xxl {
-  padding-top: 4rem !important;
-  padding-bottom: 4rem !important;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 
-@media (min-width: 1650px) {
+@media (min-width: 1680px) {
   .container,
   .container-lg,
   .container-md,
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 1648px !important;
+    max-width: 1650px !important;
   }
 }
 @media (max-width: 1399px) {
@@ -110,7 +115,7 @@ nav .nav-text {
 }
 @media (max-width: 991px) {
   .hero.container {
-    max-height: calc(100% - 3.625rem - 2rem);
+    max-height: calc(100% - 4rem - 2rem);
   }
   .hero.container > .row {
     display: flex;
@@ -140,7 +145,7 @@ nav .nav-text {
   }
 }
 .hero {
-  height: calc(100% - 3.625rem - 2rem);
+  height: calc(100% - 4rem - 2rem);
   position: relative;
   display: flex;
   align-items: center;
@@ -162,10 +167,11 @@ nav .nav-text {
   align-items: center;
 }
 .hero .hero-right-col .hero-card {
-  padding: 1.75rem 2.25rem;
+  padding: 2rem 3rem;
   height: fit-content;
   flex: 1;
   background-color: var(--bs-body-bg);
+  gap: 1rem;
 }
 .hero .hero-right-col .hero-card h2 {
   text-transform: uppercase;
@@ -173,9 +179,9 @@ nav .nav-text {
 
 .hero-bg {
   width: 100%;
-  height: calc(100% - 3.625rem - 2rem);
+  height: calc(100% - 4rem - 2rem);
   object-fit: cover;
-  filter: blur(1.5px);
+  filter: blur(1.25px);
   opacity: 80%;
   position: absolute;
 }
@@ -183,10 +189,13 @@ nav .nav-text {
 .about-me h1 {
   text-align: center;
 }
+.about-me .about-me-left > div {
+  gap: 2rem;
+}
 .about-me .about-me-left > div > div {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 .about-me .about-me-left > div > div a {
   margin-right: 1rem;
@@ -204,7 +213,7 @@ nav .nav-text {
   opacity: 20%;
 }
 .about-me .gallery-preview .gallery-button-container {
-  backdrop-filter: blur(1.5px);
+  backdrop-filter: blur(1.25px);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -215,8 +224,11 @@ nav .nav-text {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+.about-me .gallery-preview .hstack {
+  width: calc(100% - 2rem);
+}
 .about-me .gallery-preview img {
-  width: 100%;
+  width: 33.3333333333%;
   aspect-ratio: 1/1;
   object-fit: cover;
 }
