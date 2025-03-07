@@ -228,6 +228,11 @@ nav {
     .hstack{
       width: calc(100% - 2rem);
     }
+    @supports (-moz-appearance: none) {
+      .hstack {
+        width: 100%;
+      }
+    }
     img {
       // width: calc(100% / 3 - 1rem / 3);
       width: calc(100% / 3);

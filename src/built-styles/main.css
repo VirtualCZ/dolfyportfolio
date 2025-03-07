@@ -227,6 +227,11 @@ nav .nav-text {
 .about-me .gallery-preview .hstack {
   width: calc(100% - 2rem);
 }
+@supports (-moz-appearance: none) {
+  .about-me .gallery-preview .hstack {
+    width: 100%;
+  }
+}
 .about-me .gallery-preview img {
   width: 33.3333333333%;
   aspect-ratio: 1/1;
