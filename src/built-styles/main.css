@@ -14,9 +14,9 @@
 
 p {
   font-size: 2rem;
+  line-height: 2.4rem;
   font-family: bc-novatica-cyr, sans-serif;
   margin-bottom: 0 !important;
-  line-height: 2.4rem;
 }
 
 h1 {
@@ -24,6 +24,7 @@ h1 {
   line-height: 3.6rem;
   font-family: bc-novatica-cyr, sans-serif;
   margin-bottom: 0 !important;
+  text-align: center;
 }
 
 h2 {
@@ -47,36 +48,26 @@ a {
 }
 
 button {
-  background-color: #131314;
   font-size: 2rem !important;
-  color: #fff;
+  line-height: 2.4rem !important;
   text-transform: uppercase !important;
+  color: #fff;
+  background-color: #131314;
   border: none;
   padding: 0.5rem 1rem;
-  line-height: 2.4rem !important;
-}
-
-.header-text {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.hero-section {
-  height: 100vh;
 }
 
 nav {
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 nav .nav-text {
-  color: #c44188;
   font-size: 4rem;
+  line-height: 4.8rem;
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 4.8rem;
+  color: #c44188;
+  margin: 1rem 0;
 }
 nav .nav-text .nav-text-additional {
   color: #fff;
@@ -117,9 +108,6 @@ nav .nav-text .nav-text-additional {
   }
 }
 @media (max-width: 991px) {
-  .hero.container {
-    max-height: calc(100% - 4rem - 2rem);
-  }
   .hero.container > .row {
     display: flex;
     flex-direction: column;
@@ -138,9 +126,6 @@ nav .nav-text .nav-text-additional {
     min-height: 10px;
     flex: 1;
   }
-  .about-me > .row {
-    gap: 1rem;
-  }
 }
 @media (max-width: 767px) {
   .gallery-preview {
@@ -148,7 +133,7 @@ nav .nav-text .nav-text-additional {
   }
 }
 .hero {
-  height: calc(100% - 4rem - 2rem);
+  height: calc(100vh - 4.8rem - 2rem);
   position: relative;
   display: flex;
   align-items: center;
@@ -182,16 +167,13 @@ nav .nav-text .nav-text-additional {
 
 .hero-bg {
   width: 100%;
-  height: calc(100% - 4rem - 2rem);
+  height: calc(100vh - 4.8rem - 2rem);
   object-fit: cover;
   filter: blur(1.25px);
   opacity: 80%;
   position: absolute;
 }
 
-.about-me h1 {
-  text-align: center;
-}
 .about-me .about-me-left > div {
   gap: 2rem;
 }
@@ -215,13 +197,13 @@ nav .nav-text .nav-text-additional {
   background-color: var(--bs-body-bg);
   opacity: 20%;
 }
-.about-me .gallery-preview .gallery-button-container {
+.about-me .gallery-preview .gallery-preview-button-container {
   backdrop-filter: blur(1.25px);
   position: absolute;
   width: 100%;
   height: 100%;
 }
-.about-me .gallery-preview .gallery-button-container button {
+.about-me .gallery-preview .gallery-preview-button-container button {
   position: absolute;
   left: 50%;
   top: 50%;
