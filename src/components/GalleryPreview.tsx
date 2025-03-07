@@ -11,19 +11,19 @@ const GalleryPreview = () => {
             </div>
             <Stack gap={3}>
               <Stack direction="horizontal" gap={3}>
-                <img src="/temp-photos/IMG_0153.jpg" alt="gallery preview" />
-                <img src="/temp-photos/IMG_0153.jpg" alt="gallery preview" />
-                <img src="/temp-photos/IMG_0153.jpg" alt="gallery preview" />
+                <img src="/temp-photos/gal1.jpg" alt="gallery preview" />
+                <img src="/temp-photos/gal2.jpg" alt="gallery preview" />
+                <img src="/temp-photos/gal3.jpg" alt="gallery preview" />
               </Stack>
               <Stack direction="horizontal" gap={3}>
-                <img src="/temp-photos/IMG_0153.jpg" alt="gallery preview" />
-                <img src="/temp-photos/IMG_0153.jpg" alt="gallery preview" />
-                <img src="/temp-photos/IMG_0153.jpg" alt="gallery preview" />
+                <img src="/temp-photos/gal4.jpg" alt="gallery preview" />
+                <img src="/temp-photos/gal1.jpg" alt="gallery preview" />
+                <img src="/temp-photos/gal5.jpg" alt="gallery preview" />
               </Stack>
               <Stack direction="horizontal" gap={3}>
-                <img src="/temp-photos/IMG_0153.jpg" alt="gallery preview" />
-                <img src="/temp-photos/IMG_0153.jpg" alt="gallery preview" />
-                <img src="/temp-photos/IMG_0153.jpg" alt="gallery preview" />
+                <img src="/temp-photos/gal3.jpg" alt="gallery preview" />
+                <img src="/temp-photos/gal2.jpg" alt="gallery preview" />
+                <img src="/temp-photos/gal6.jpg" alt="gallery preview" />
               </Stack>
             </Stack>
           </div>

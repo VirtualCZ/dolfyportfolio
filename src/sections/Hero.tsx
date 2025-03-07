@@ -3,11 +3,11 @@ import { Col, Container, Row } from "react-bootstrap";
 function Hero() {
   return (
     <>
-      <img src="/temp-photos/hero_bg.jpg" alt="hero bg" className="hero-bg"></img>
+      <img src="/hero_bg.jpg" alt="hero bg" className="hero-bg"></img>
       <Container className="hero">
         <Row>
           <Col className="hero-left-col d-lg-block" lg={5} xl={5}>
-            <img className="hero-top-img" alt="hero top" src="/temp-photos/IMG_1695.jpg" />
+            <img className="hero-top-img" alt="hero top" src="/hero_top.jpg" />
           </Col>
           <Col
             className="hero-center-col d-none d-lg-none d-xxl-block"

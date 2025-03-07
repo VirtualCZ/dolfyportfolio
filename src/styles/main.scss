@@ -136,7 +136,7 @@ nav {
 }
 .hero {
   height: calc(
-    100vh - 4.8rem - 2rem
+    100dvh - 4.8rem - 2rem
   ); //4rem is font-size, 2rem is top and bottom paddings combined
   position: relative;
   display: flex;
@@ -171,7 +171,7 @@ nav {
 .hero-bg {
   width: 100%;
   height: calc(
-    100vh - 4.8rem - 2rem
+    100dvh - 4.8rem - 2rem
   ); //4rem is font-size, 2rem is top and bottom paddings combined
   object-fit: cover;
   filter: blur(1.25px);

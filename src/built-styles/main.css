@@ -133,7 +133,7 @@ nav .nav-text .nav-text-additional {
   }
 }
 .hero {
-  height: calc(100vh - 4.8rem - 2rem);
+  height: calc(100dvh - 4.8rem - 2rem);
   position: relative;
   display: flex;
   align-items: center;
@@ -167,7 +167,7 @@ nav .nav-text .nav-text-additional {
 
 .hero-bg {
   width: 100%;
-  height: calc(100vh - 4.8rem - 2rem);
+  height: calc(100dvh - 4.8rem - 2rem);
   object-fit: cover;
   filter: blur(1.25px);
   opacity: 80%;
